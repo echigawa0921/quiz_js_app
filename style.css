@@ -91,6 +91,14 @@
      width: 400px;
      font-size: 18px;
  }
+ .btn-secondary{
+    margin-top: 100px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    font-size: 18px;
+ }
  .start-btn--orange{
     padding: 20px;
     flex-direction: column;
@@ -110,6 +118,20 @@
    background: #f56500;
  }
 
+ .footer {
+    background-color: gray;
+    bottom: 0; /*下に固定*/
+    padding: 30px 0;
+    position: center;
+    position: absolute;
+    width: 100%;
+  }
+  .copyright {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+  }
 
  @media screen and (max-width: 640px) {
     .menu {

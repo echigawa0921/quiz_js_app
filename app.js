@@ -73,8 +73,3 @@ while (handleIndex < $button.length) {
   });
   handleIndex++;
 }
-
-
-
-
-
