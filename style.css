@@ -1,0 +1,231 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 40px;
+    background-color: #DD0000;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.2);    
+  }
+  .menu {
+    display: flex;
+    color: white;
+    list-style: none;
+    padding-top: 20px;
+    margin-left: 500px;
+  }
+  .menu-item {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+  }
+  .menu-item-link {
+    font-size: 15px;
+    font-weight:900;
+    color: #000000;
+    text-decoration: none;
+    color: white;
+  }
+  .menu-item-link.menu-item-link-btn {
+    color: #fff;
+    background-color: #ef2728;
+    border-radius: 24px;
+    padding: 12px 30px;
+  }
+
+  .sp-nav {
+    display: none;
+ }
+ .easy-quiz{
+     margin-top: 200px;
+ }
+ .container{
+     margin-top: 40px;
+ }
+ .main-title{
+     color: white;
+     font-weight: 800;
+ }
+ .btn--orange,
+ a.btn--orange {
+   color: #fff;
+   background-color: #eb6100;
+   margin-top: 50px;
+ }
+ .btn--orange:hover,
+ a.btn--orange:hover {
+   color: #fff;
+   background: #f56500;
+ }
+
+ .mode-choice{
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    border-bottom: 3px solid black;
+    width: 400px;
+    font-weight: bold;
+    margin: auto;
+ }
+ .mode-choice-name{
+    width: auto;
+    padding-top: 145px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 3px  gray;
+ }
+
+
+ .mode-select{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .btn--orange{
+     padding: 20px;
+     flex-direction: column;
+     align-items: center;
+     width: 400px;
+     font-size: 18px;
+ }
+ .start-btn--orange{
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    font-size: 18px;
+ }
+ .start-btn--orange,
+ a.start-btn--orange {
+   color: #fff;
+   background-color: #eb6100;
+   margin-top: 50px;
+ }
+ .start-btn--orange:hover,
+ a.start-btn--orange:hover {
+   color: #fff;
+   background: #f56500;
+ }
+
+
+ @media screen and (max-width: 640px) {
+    .menu {
+        display: none;
+    }
+    .logo {
+        width: 140px;
+        margin: 0px;
+    }
+    .sp-nav {
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 30px;
+        width: 100%;
+        height: 100vh;
+        display: block;
+        width: 100%;
+        background: rgba(0, 0, 0, .8);
+        opacity: 0;
+        transform: translateY(-100%);
+        transition: all .2s ease-in-out;
+     }
+     #hamburger {
+        position: relative;
+        display: block;
+        width: 35px;
+        padding-right: 10px;
+        height: 25px;
+        margin: 0 0 0 auto;
+     }
+     #hamburger span {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: block;
+        width: 100%;
+        padding-right: 10px;
+        height: 2px;
+        background-color: black;
+        transform: translateY(-50%);
+     }
+     #hamburger::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-right: 10px;
+        height: 2px;
+        background-color: black;
+     }
+     #hamburger::after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 70%;
+        padding-right: 10px;
+        height: 2px;
+        background-color: black;
+     }
+
+     .sp-nav ul {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+     }
+     .sp-nav li {
+        margin: 0;
+        padding: 0;
+     }
+     .sp-nav li span {
+        font-size: 15px;
+        color: #fff;
+     }
+     .sp-nav li a, .sp-nav li span {
+        display: block;
+        padding: 20px 0;
+        text-decoration: none;
+        color: white;
+     }
+     a:hover {
+        color: gray;
+      }
+
+     .sp-nav .close {
+        position: relative;
+        padding-left: 20px;
+     }
+     .sp-nav .close::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: block;
+        width: 16px;
+        height: 1px;
+        background: #fff;
+        transform: rotate( 45deg );
+     }
+     .sp-nav .close::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: block;
+        width: 16px;
+        height: 1px;
+        background: #fff;
+        transform: rotate( -45deg );
+     }
+    }

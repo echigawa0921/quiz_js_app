@@ -1,5 +1,5 @@
 const quiz = [
-  {question : 'ゲーム市場、最も売れたゲーム機は次のうちどれ？',
+  {question : '（第一問）ゲーム市場、最も売れたゲーム機は次のうちどれ？',
   answers : [
     'スーパーファミコン',
     'プレイステーション2',
@@ -8,7 +8,7 @@ const quiz = [
   ],
   correct : 'ニンテンドーDS'
   },
-  {question : 'こんにちはいうのはいつ？',
+  {question : '（第二問）こんにちはいうのはいつ？',
   answers : [
     '朝5時',
     '夜2時',
@@ -17,7 +17,7 @@ const quiz = [
   ],
   correct : '昼11時'
   },
-  {question : 'GAFAじゃないのは次のうちどれ？',
+  {question : '（第三問）GAFAじゃないのは次のうちどれ？',
   answers : [
     'amazon',
     'Google',
@@ -73,5 +73,8 @@ while (handleIndex < $button.length) {
   });
   handleIndex++;
 }
+
+
+
 
 
