@@ -1,3 +1,6 @@
+body{
+    background-color: #F2F2F2;
+}
 .header {
     position: fixed;
     top: 0;
@@ -35,6 +38,9 @@
     border-radius: 24px;
     padding: 12px 30px;
   }
+.mt-5{
+    background-color: white;
+}
 
   .sp-nav {
     display: none;
@@ -77,7 +83,13 @@
     text-align: center;
     border-bottom: 3px  gray;
  }
-
+.background-tag{
+    background-color: white;
+    height: 900px;
+    width: 800px;
+    align-items: center;
+    margin: auto;
+}
 
  .mode-select{
     display: flex;
@@ -92,12 +104,13 @@
      font-size: 18px;
  }
  .btn-secondary{
-    margin-top: 100px;
+    margin-top: 120px;
     padding: 20px;
     flex-direction: column;
     align-items: center;
     width: 350px;
     font-size: 18px;
+    
  }
  .start-btn--orange{
     padding: 20px;
