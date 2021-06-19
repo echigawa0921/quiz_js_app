@@ -1,6 +1,7 @@
 # quiz_js_app
 
-基本的なビューはQuizNock（https://quizknock.com/）を参考に作成しました！   
+基本的なビューはQuizNock（https://quizknock.com/）
+を参考に作成しました！   
 javascriptの勉強のアウトプットとして、クイズアプリを作成しました。   
    
    リンク：https://echigawa0921.github.io/quiz_js_app/start.html
