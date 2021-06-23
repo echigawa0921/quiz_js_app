@@ -21,7 +21,7 @@ javascript
 <img width="800" alt="スクリーンショット 2021-06-18 23 09 20" src="https://user-images.githubusercontent.com/69971834/122574058-3947c080-d08a-11eb-834a-a297bc0f6135.png">
 
 # こだわり
-・レスポンシブ対応済み
+・レスポンシブ対応済み   
 ・アラート文での正誤判定・結果通知
 
 
